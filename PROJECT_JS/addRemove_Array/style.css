@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  height: 100vh;
+}
+
+.container {
+  height: 500px;
+  width: 600px;
+  border-radius: 20px;
+  border-radius: 25px;
+  background-color: rgba(236, 223, 223, 0.596);
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.8);
+  font-family: "Signika", sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nama {
+  height: 240px;
+  width: 400px;
+  margin-left: 14%;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  overflow: auto;
+  background-color: rgb(253, 253, 253);
+}
+
+.inputText {
+  text-align: center;
+}
+
+#textInput {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: bisque;
+  margin-right: 30px;
+}
+
+.delete-btn {
+  margin: 5px;
+}
